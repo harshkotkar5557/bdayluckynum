@@ -67,6 +67,10 @@ input::-webkit-inner-spin-button {
 .footer{
     background-color:transparent;
 }
+.footer p{
+    text-align: center;
+    color: white;
+}
 .footer ul{
     display: flex;
     align-items: center;
