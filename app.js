@@ -18,6 +18,8 @@ submit_button.addEventListener('click' ,() =>{
     let luckyNumber = Number(lucky_number.value)
     if(!luckyNumber){
         return result_section.innerHTML = "Invalid data"
+    }if(luckyNumber <= 0){
+        return result_section.innerHTML = "Invalid data"
     }
     if(totalOfBirthDate % luckyNumber ===0){
             return result_section.innerHTML = `Your birthdate is lucky 🎂 `

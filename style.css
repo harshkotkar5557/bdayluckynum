@@ -6,17 +6,18 @@
 }
 body{
     font-family: 'Ubuntu', sans-serif;
-    background: #294647;
+    background: white
 }
 .container{
+    background: #c1e6e7;
+
     margin: 10vh auto;
     width: 70%;
     height: 65vh;
-    box-shadow: 5px -5px 5px 10px #655858;
+    box-shadow: 1px 1px 5px 3px #e6e4e4;
     border-radius: 10px;
     padding: 1.5rem 2rem;
     text-align: center;
-    color: white;
 }
 .input_section{
     display: flex;
@@ -69,7 +70,6 @@ input::-webkit-inner-spin-button {
 }
 .footer p{
     text-align: center;
-    color: white;
 }
 .footer ul{
     display: flex;
@@ -83,7 +83,6 @@ input::-webkit-inner-spin-button {
    
 }
 .footer ul li a{
-    
-    color: white;
+    color: black;
     text-decoration: none;
 }
