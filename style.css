@@ -20,11 +20,11 @@ body{
     margin: 10vh auto;
     width: 70%;
     height: 100%;
-    box-shadow: 2px 2px 3px 2px rgb(197, 197, 197);
+    box-shadow: 0px 0px 3px 2px rgb(197, 197, 197);
     border-radius: 10px;
     padding: 1.5rem 2rem;
     text-align: center;
-    background: #3781ba;
+    background: #ffffff;
 }
 .input_section{
     display: flex;
@@ -40,7 +40,7 @@ body{
     outline: none;
     border-radius: 0.2rem;
     padding: 0.3rem;
-    border: none;
+    border: 1px solid black;
 }
 .input_section button{
     background: black;
@@ -91,4 +91,8 @@ input::-webkit-inner-spin-button {
 .footer ul li a{
     color: black;
     text-decoration: none;
+}
+.img_loading{
+    display: none;
+    margin: 0 auto;
 }
