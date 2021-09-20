@@ -43,6 +43,7 @@ body{
     border: 1px solid black;
 }
 .input_section button{
+    cursor: pointer;
     background: black;
     margin: 1rem;
     border: none;
